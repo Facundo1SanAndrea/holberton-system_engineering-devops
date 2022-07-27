@@ -26,5 +26,6 @@ int main(void)
 		printf("%s\n", split);
 		split = strtok(NULL, " ");
 	}
+	free(string);
 	return (0);
 }
